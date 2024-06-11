@@ -2,7 +2,7 @@
 import {Component} from 'react'
 import './index.css'
 
-class Speedometer extends Component {
+class Speedometer extends Component { 
   state = {speed: 0}
 
   onAccelerate = () => {
