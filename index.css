@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.bg-container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+.heading{
+    color: #ffffff;
+    font-family: "Roboto";
+    text-align: center;
+}
+.description{
+    color: #ffffff;
+    font-family: "Roboto";
+    text-align: center;
+}
+.accelerate-btn{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    height: 30px;
+    width: 80px;
+    margin: 5px;
+}
+.brake-btn{
+    background-color: transparent;
+    color: white;
+    border-style: 1px white solid;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    margin: 5px;
+
+
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
